@@ -12,9 +12,9 @@ const ProductPrice = ({
 
   return (
     <p className={cn("text-2xl font-semibold text-primary", className)}>
-      <span className="text-xs align-super mx-1">ج.م</span>
       {intValue}
       <span className="text-xs align-super">. {floatValue}</span>
+      <span className="text-sm align-super mx-1">ج.م</span>
     </p>
   );
 };
