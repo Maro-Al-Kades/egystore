@@ -27,19 +27,19 @@ export const Header = () => {
             <Image
               src="/logo.svg"
               alt={`${APP_NAME} logo`}
-              width={48}
-              height={48}
+              width={150}
+              height={100}
               priority
             />
 
-            <span
+            {/* <span
               className={cn(
                 "hidden lg:block font-semibold text-2xl mr-3",
                 theme === "light" ? "text-primary" : ""
               )}
             >
               {APP_NAME}
-            </span>
+            </span> */}
           </Link>
         </div>
 

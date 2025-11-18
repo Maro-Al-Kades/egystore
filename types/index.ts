@@ -1,4 +1,4 @@
-import { insertProductSchema } from "@/validators/product.validator";
+import { insertProductSchema } from "@/validators/product.validators";
 import z from "zod";
 
 export type Product = z.infer<typeof insertProductSchema> & {

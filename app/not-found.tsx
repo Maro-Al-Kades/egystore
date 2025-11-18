@@ -10,8 +10,8 @@ const NotFoundRoute = () => {
     <div className="flex flex-col gap-8 items-center justify-center min-h-screen">
       <Image
         src={`/logo.svg`}
-        width={70}
-        height={70}
+        width={150}
+        height={100}
         alt={`${APP_NAME} logo`}
         priority
       />
